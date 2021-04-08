@@ -1,8 +1,8 @@
-# Terraform Azure Windows Virtual Machine
+# Terraform Azure Windows Virtual Machine Scale Set
 
-Deploy a Windows Virtual Machine in Azure using Terraform
+Deploy a Windows Virtual Machine Scale Set in Azure using Terraform
 
-Update the **sku** on this section of the **windows-vm-main.tf** file, to configure the version of Windows Server.
+Update the **sku** on this section of the **windows-vm-ss-main.tf** file, to configure the version of Windows Server.
 
 ```
 source_image_reference {
@@ -13,7 +13,7 @@ source_image_reference {
 }
 ```
 
-OS variables are located on the file **windows-vm-variables.tf**
+OS variables are located on the file **windows-vm-ss-variables.tf**
 
 ```
 # Windows Server 2019 SKU used to build VMs
