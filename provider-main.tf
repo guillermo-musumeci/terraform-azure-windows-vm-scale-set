@@ -25,4 +25,3 @@ provider "azurerm" {
   client_secret   = var.azure-client-secret
   tenant_id       = var.azure-tenant-id
 }
-
