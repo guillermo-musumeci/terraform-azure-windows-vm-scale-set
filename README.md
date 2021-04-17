@@ -1,5 +1,7 @@
 # Terraform Azure Windows Virtual Machine Scale Set
 
+Code compatible with Terraform v0.14 and 0.15
+
 Deploy a Windows Virtual Machine Scale Set in Azure using Terraform
 
 Update the **sku** on this section of the **windows-vm-ss-main.tf** file, to configure the version of Windows Server.
